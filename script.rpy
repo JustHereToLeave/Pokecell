@@ -373,35 +373,35 @@ label cytoplasm:
         jump avacuole
 
     menu:
-     "Q2. Where do the Lysosomes exist?"
+     "Q2. Where does the Golgi body exist?"
 
      "They are only in animal cells.":
-        "Correct."
-
-     "They exist in both plant and animal cells.":
         "Wrong! You must return back to the beginnings of battle!"
         jump lysosomes
+
+     "They exist in both plant and animal cells.":
+        "Correct."
         
      "They are only in plant cells.":
         "Wrong! You must return back to the beginnings of battle!"
         jump lysosomes
 
     menu:
-     "Q3. Which is true about the Vacuoles?"
+     "Q3. Which is true about the Golgi body?"
 
-     "Vacuoles are specialized like lysosomes.":
+     "Formerly called Golgi-Homgren ducts.":
         "Correct."
 
-     "Vacuoles are protectors of the cell.":
+     "They send instructions to other parts of the body.":
         "Wrong! You must return back to the beginnings of battle!"
         jump ribosomes
 
-     "Vacuoles make DNA.":
+     "They produce cytoplasm.":
         "Wrong! You must return back to the beginnings of battle!"
         jump ribosomes
 
-    av "You win!! HEHE."
-    mc "Sure.."
+    gl "Oh you won fair and square there buddy. Go right along!"
+    mc "Thanks Mr. Body."
 
     # This ends the game.
 
