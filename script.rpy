@@ -1,4 +1,4 @@
-﻿# The script of the game goes in this file.
+# The script of the game goes in this file.
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
@@ -318,7 +318,7 @@ label cytoplasm:
         jump avacuole
 
      "Colorizes the cell.":
-        "Wrong! You must return back to the beginnings of battle!"
+        "Gnorw! You must return back to the beginnings of battle!"
         jump avacuole
 
     menu:
@@ -365,22 +365,26 @@ label cytoplasm:
         "Wrong! You must return back to the beginnings of battle!"
         jump avacuole
       
-     "Energy provider.":
+     "Packages proteins.":
         "Correct."
 
-     "Colorizes the cell.":
+     "Moves the cell.":
         "Wrong! You must return back to the beginnings of battle!"
         jump avacuole
 
     menu:
-     "Q2. Read carefully: Which has multiple small vacuoles?"
+     "Q2. Where do the Lysosomes exist?"
 
-     "Animal cells.":
+     "They are only in animal cells.":
         "Correct."
-        
-     "Plant cells.":
+
+     "They exist in both plant and animal cells.":
         "Wrong! You must return back to the beginnings of battle!"
-        jump avacuole
+        jump lysosomes
+        
+     "They are only in plant cells.":
+        "Wrong! You must return back to the beginnings of battle!"
+        jump lysosomes
 
     menu:
      "Q3. Which is true about the Vacuoles?"
