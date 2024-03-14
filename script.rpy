@@ -13,6 +13,7 @@ define ly = Character("Lysosomes")
 define av = Character("Animal Vacuole")
 define gl = Character("Golgi Body")
 define s_er = Character("Smooth ER")
+define r_er = Character("Rough ER")
 
 # The game starts here.
 
@@ -454,6 +455,62 @@ label cytoplasm:
 
     mc "I'm the alpha."
     s_er "BOOM."
+
+    s_er "HAH. I'M STILL ALIVE WITH THE HELP OF YOUR OLD FREIND RIBOSOMES."
+
+    mc "What!"
+
+    r_er "SO NOW I TURN INTO ROUGH ER"
+
+    mc "I'm soooooooo scaared."
+
+    r_er "AS YOU SHOULD BE"
+
+    mc "That was sarcasm"
+
+    r_er "I don't care. I WILL BEAT YOU ANYWAY!"
+
+      menu:
+     "Q1. The smooth ER's main function is"
+
+     "Trash Dispolsal of the cell.":
+      "Wrong! You must return back to the beginnings of battle!"
+        jump s_er
+
+     "Protein sythesis, transport, and folding.":
+        "Correct."
+
+     "IDK.":
+       "!elttab eht fo gninigeb eht ot nruter tsum ouY !Gnorw"
+        jump s_er
+
+    menu:
+     "Q2. Where do smooth ER's exist?"
+
+     "Animal cells.":
+        "Wrong! You must return back to the beginnings of the battle!"
+        jump s_er
+
+     "Plant cells.":
+        "Wrong! You must return back to the beginnings of battle!"
+        jump s_er
+
+    "Plant and animal cells."
+        "Correct."
+
+    menu:
+     "Q3. Which is true about the ER?"
+
+     "There are two different kinds of ER's":
+        "Correct."
+
+     " are protectors of the cell.":
+        "Wrong! You must return back to the beginnings of battle!"
+        jump ribosomes
+
+     "Vacuoles make DNA.":
+        "Wrong! You must return back to the beginnings of battle!"
+        jump ribosomes
 
     # This ends the game.
 
