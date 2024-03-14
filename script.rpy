@@ -337,7 +337,7 @@ label cytoplasm:
     menu:
      "Q3. Which is true about the Vacuoles?"
 
-     "Vacuoles are specialized like lysosomes.":
+     "Vacuoles are like specialized lysosomes.":
         "Correct."
 
      "Vacuoles are protectors of the cell.":
@@ -420,14 +420,14 @@ label cytoplasm:
 
      "Trash Disposal of the cell.":
       "Wrong! You must return back to the beginnings of battle!"
-        jump er
+      jump er
 
      "Protein sythesis, transport, and folding.":
         "Correct."
 
      "IDK.":
        "!elttab eht fo gninigeb eht ot nruter tsum ouY !Gnorw"
-        jump er
+       jump er
 
     menu:
      "Q2. Where do smooth ERs exist?"
@@ -440,7 +440,7 @@ label cytoplasm:
         "Wrong! You must return back to the beginnings of battle!"
         jump er
 
-    "Plant and animal cells."
+     "Plant and animal cells.":
         "Correct."
 
     menu:
@@ -477,18 +477,18 @@ label cytoplasm:
 
     r_er "I don't care. I WILL BEAT YOU ANYWAY!"
 
-      menu:
-     "Q1. The rough ER's main function is"
+    menu:
+      "Q1. The rough ER's main function is"
 
-     "Trash Disposal of the cell.":
-      "Wrong! You must return back to the beginnings of battle!"
+      "Trash Disposal of the cell.":
+        "Wrong! You must return back to the beginnings of battle!"
         jump er
 
-     "Protein sythesis, transport, and folding.":
+      "Protein sythesis, transport, and folding.":
         "Correct."
 
-     "IDK.":
-       "!elttab eht fo gninigeb eht ot nruter tsum ouY !Gnorw"
+      "IDK.":
+        "Wrong! You must return back to the beginnings of battle!"
         jump er
 
     menu:
@@ -502,7 +502,7 @@ label cytoplasm:
         "Wrong! You must return back to the beginnings of battle!"
         jump er
 
-    "Plant and animal cells."
+     "Plant and animal cells.":
         "Correct."
 
     menu:
@@ -523,8 +523,7 @@ label cytoplasm:
 
     mc "I thought so."
 
-    label nuclei:
-
+label nuclei:
     scene cytoplasm_b
     show nucleus
 
@@ -543,46 +542,46 @@ label cytoplasm:
     "This is your final battle in the cell."
 
     menu:
-     "Q1. The nucleolus' main function is:"
+        "Q1. The nucleolus' main function is:"
 
-     "Produce and assemble ribosomes.":
-        "Correct."
+        "Produce and assemble ribosomes.":
+            "Correct."
 
-     "Protein sythesis, transport, and folding.":
-       "Wrong! You must return back to the beginnings of battle!"
-        jump nuclei
+        "Protein synthesis, transport, and folding.":
+            "Wrong! You must return back to the beginnings of battle!"
+            jump nuclei
 
-     "Self-destruction of the cell.":
-       "Wrong! You must return back to the beginnings of battle!"
-        jump nuclei
-
-    menu:
-     "Q2. Where do nucleolus' exist?"
-
-     "Animal cells.":
-        "Wrong! You must return back to the beginnings of battle!"
-        jump nuclei
-
-     "Plant cells.":
-        "Wrong! You must return back to the beginnings of battle!"
-        jump nuclei
-
-    "Plant and animal cells."
-        "Correct."
+        "Self-destruction of the cell.":
+            "Wrong! You must return back to the beginnings of battle!"
+            jump nuclei
 
     menu:
-     "Q3. Which is true about the nucleolus?"
+        "Q2. Where do nucleolus' exist?"
 
-     "Nuclei have their own system of organelles. Nucleolus is the biggest.":
-        "Correct."
+        "Animal cells.":
+            "Wrong! You must return back to the beginnings of battle!"
+            jump nuclei
 
-     "Nuclei have their own system of organelles. Nucleolus is the smallest.":
-        "Wrong! You must return back to the beginnings of battle!"
-        jump nuclei
+        "Plant cells.":
+            "Wrong! You must return back to the beginnings of battle!"
+            jump nuclei
 
-     "Nuclei have their own system of organelles. Nucleolus makes energy.":
-        "Wrong! You must return back to the beginnings of battle!"
-        jump nuclei
+        "Plant and animal cells.":
+            "Correct."
+
+    menu:
+        "Q3. Which is true about the nucleolus?"
+
+        "Nuclei have their own system of organelles. Nucleolus is the biggest.":
+            "Correct."
+
+        "Nuclei have their own system of organelles. Nucleolus is the smallest.":
+            "Wrong! You must return back to the beginnings of battle!"
+            jump nuclei
+
+        "Nuclei have their own system of organelles. Nucleolus makes energy.":
+            "Wrong! You must return back to the beginnings of battle!"
+            jump nuclei
 
     mc "I'm still in."
 
@@ -590,78 +589,75 @@ label cytoplasm:
 
     nu "I will avenge you, son."
 
-      menu:
-     "Q1. The Nucleus' main function is"
+    menu:
+        "Q1. The Nucleus' main function is"
 
-     "Water disposal of the cell.":
-      "Wrong! You must return back to the beginnings of battle!"
-        jump nuclei
+        "Water disposal of the cell.":
+            "Wrong! You must return back to the beginnings of battle!"
+            jump nuclei
 
-     "Controls the cell.":
-        "Correct."
+        "Controls the cell.":
+            "Correct."
 
-     "Produces blood.":
-       "Wrong! You must return back to the beginnings of battle!"
-        jump nuclei
+        "Produces blood.":
+            "Wrong! You must return back to the beginnings of battle!"
+            jump nuclei
 
     menu:
-     "Q2. Where does the nucleus exist?"
+        "Q2. Where does the nucleus exist?"
 
-     "Animal cells.":
-        "Wrong! You must return back to the beginnings of the battle!"
-        jump nuclei
+        "Animal cells.":
+            "Wrong! You must return back to the beginnings of the battle!"
+            jump nuclei
 
-     "Plant cells.":
-        "Wrong! You must return back to the beginnings of battle!"
-        jump nuclei
+        "Plant cells.":
+            "Wrong! You must return back to the beginnings of battle!"
+            jump nuclei
 
-    "Plant and animal cells."
-        "Correct."
-
-    menu:
-     "Q3. Which is true about the Nucleus?"
-
-     "The Nucleus has its own subsystem.":
-        "Correct."
-
-     "The nucleus is the smallest organelle.":
-        "Wrong! You must return back to the beginnings of battle!"
-        jump nuclei
-
-     "DASDAS":
-        "Choosing a dumb answer at this point? Really? Go back, I guess."
-        jump nuclei
+        "Plant and animal cells.":
+            "Correct."
 
     menu:
-     "Congrats, this is the last one. Q4. Which of the following statements about the nucleus is FALSE?"
+        "Q3. Which is true about the Nucleus?"
 
-     "Chromosomes are composed of chromatin, a mixture of DNA and histone proteins.":
-        "Wrong! You must return back to the beginnings of battle!"
-        jump nuclei
+        "The Nucleus has its own subsystem.":
+            "Correct."
 
-     "It is surrounded by a nuclear envelope that is continuous with the endoplasmic reticulum.":
-        "Wrong! You must return back to the beginnings of battle!"
-        jump nuclei
+        "The nucleus is the smallest organelle.":
+            "Wrong! You must return back to the beginnings of battle!"
+            jump nuclei
 
-     "Molecules are not able to move into and out of the nucleus.":
-        "For the final time, yes. That is correct."
+        "DASDAS":
+            "Choosing a dumb answer at this point? Really? Go back, I guess."
+            jump nuclei
+
+    menu:
+        "Congrats, this is the last one. Q4. Which of the following statements about the nucleus is FALSE?"
+
+        "Chromosomes are composed of chromatin, a mixture of DNA and histone proteins.":
+            "Wrong! You must return back to the beginnings of battle!"
+            jump nuclei
+
+        "It is surrounded by a nuclear envelope that is continuous with the endoplasmic reticulum.":
+            "Wrong! You must return back to the beginnings of battle!"
+            jump nuclei
+
+        "Molecules are not able to move into and out of the nucleus.":
+            "For the final time, yes. That is correct."
 
     nu "You win. You have defeated my entire army. The final thing I can do is simply justice, I have set you free."
 
     mc "Goodbye, nucleus. Goodbye, cell."
 
     label end:
+        scene lab
+        with moveinright
 
-    scene lab
-    with moveinright
+        mc "Ahh.. finally. I lived."
 
-    mc "Ahh.. finally. I lived."
+        show linnabary at left
 
-    show linnabary
-    at left
+        ln "Hey! Back to work!"
 
-    ln "Hey! Back to work!"
-
-    # This ends the game.
-
-    return
+        # This ends the game.
+        return
